@@ -763,7 +763,7 @@ li {
 .man_image {
   position: absolute;
   top: 60px;
-  left: 150px;
+  left: calc(50% - 600px);
 }
 .aside_main_title {
   width: 100%;
@@ -953,8 +953,6 @@ li {
   align-items: center;
   gap: 11.5px;
   margin-bottom: 15px;
-}
-.logotip {
 }
 .adrees_word {
   font-family: "DM Sans";

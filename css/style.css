@@ -28,7 +28,6 @@ li {
     text-decoration: none;
 }
 
-
 .site-header {
     padding-top: 39px;
     padding-bottom: 77px;
@@ -39,7 +38,6 @@ li {
     align-items: center;
     justify-content: space-between;
 }
-
 .site-nav-list {
     display: flex;
     justify-content: space-between;
@@ -79,13 +77,6 @@ li {
     border: 1px solid #FD695A;
     color: #FD695A;
 }
-
-
-
-
-
-
-
 .hero-section {
     /* background-color: #eee; */
     padding-bottom: 109px;
@@ -285,12 +276,13 @@ li {
     letter-spacing: 0.5px;
     color: #3D3D3F;
 }
-
 .hero-section-end-award-info {
+
     font-family: 'Mulish';
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
+    line-height: 28px;;
     line-height: 28px;
     display: flex;
     align-items: center;
@@ -298,10 +290,19 @@ li {
     color: #3D3D3F;
     opacity: 0.6;
 }
+.activ-client__title{
+.sales{
+    position: absolute;
+    top: calc(50% + 50px);
+    left: calc(50% + 565px);
+    padding: 24px 20px 17px 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 22px rgba(0, 0, 0, 0.05);
+    border-radius: 11px;
+}
 
-
-
-
+.sales__title{
+    margin-bottom: -10px;
 
 .compony-section {
     padding-bottom: 120px;
@@ -319,6 +320,19 @@ li {
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
+
+    line-height: 26px;
+    color: #3D3D3F;
+}
+/* About Us Section Styles End */
+
+
+.our-work__section{
+    background-color: #FBFAFC;
+    padding-top: 120px;
+}
+
+.our-work-top__title{
     line-height: 23px;
     color: #3D3D3F;
 
@@ -359,11 +373,17 @@ li {
 }
 
 .we-are-section-start-info {
+
     font-family: 'Mulish';
     font-style: normal;
     font-weight: 600;
     font-size: 24px;
     line-height: 50px;
+    color: #FD695A;
+}
+
+.our-work-top__subtitle{
+    margin-bottom: 26px;
     display: flex;
     align-items: center;
     text-transform: uppercase;
@@ -380,6 +400,54 @@ li {
     font-weight: 700;
     font-size: 42px;
     line-height: 50px;
+    color: #3D3D3F;
+}
+
+.our-work-top__list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 58px;
+    
+}
+
+.our-work-item__link{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #CCCCCC;
+}
+
+.our-work-top__list-item:last-child>.our-work-item__link{
+    margin-left: 176px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #3D3D3F;
+}
+
+.our-work-item__link:focus{
+    padding-bottom: 10px;
+    border-bottom: 4px solid #FD695A;
+    color: #FD695A;
+}
+
+.our-work__end{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.our-work-end__top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+=======
     display: flex;
     align-items: flex-end;
     color: #3D3D3F;

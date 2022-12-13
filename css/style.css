@@ -26,3 +26,71 @@ li{
 }
 
 
+.our-work__section{
+    padding-top: 120px;
+}
+
+.our-work-top__title{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 50px;
+    color: #FD695A;
+}
+
+.our-work-top__subtitle{
+    margin-bottom: 26px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 50px;
+    color: #3D3D3F;
+}
+
+.our-work-top__list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 58px;
+
+}
+
+.our-work-item__link{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #CCCCCC;
+}
+
+.our-work-top__list-item:last-child>.our-work-item__link{
+    margin-left: 176px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #3D3D3F;
+}
+
+.our-work-item__link:focus{
+    padding-bottom: 10px;
+    border-bottom: 4px solid #FD695A;
+    color: #FD695A;
+}
+
+.our-work__end{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.our-work-end__top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
